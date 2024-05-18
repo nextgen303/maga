@@ -50,7 +50,7 @@ html {
   --fs-3: 24px;
   --fs-4: 18px;
   --fs-5: 14px;
-  --fs-6: 12px;
+  --fs-6: 13px;
 
   /* Font Width */
   --fw-400: 400;
@@ -563,7 +563,7 @@ header .btn:hover {
 }
 
 .service__container {
-  width: 642px;
+  width: 765px;
   padding-top: 7rem;
   padding-bottom: 8rem;
 }
@@ -591,7 +591,7 @@ header .btn:hover {
 }
 
 .service__title p {
-  font-size: var(--fs-6);
+  font-size: 16px;
   color: var(--primary-color);
   line-height: 20px;
   text-align: end;
@@ -652,12 +652,17 @@ header .btn:hover {
 
 .service__boxes-list .service__boxes .service-details .number {
   color: var(--black);
+  font-size: 20px;
   opacity: 0.3;
   padding-bottom: 20px;
 }
 
+.service__boxes-list .service__boxes .service-details h4{
+  font-size: 24px;
+}
+
 .service__boxes-list .service__boxes .service-details p {
-  font-size: var(--fs-6);
+  font-size: 16px;
   color: var(--secondery-color);
   line-height: 20px;
   padding-top: 50px;
@@ -876,6 +881,10 @@ header .btn:hover {
     margin-left: -55px;
   }
 
+  .service__title p {
+    font-size: 14px;
+  }
+
   .extra__support-card {
     gap: 2.5rem;
   }
@@ -942,6 +951,11 @@ header .btn:hover {
   .extra__support-list {
     margin-left: 7rem;
   }
+
+  .service__title p {
+    font-size: 14px;
+  }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -957,6 +971,8 @@ header .btn:hover {
     left: -3rem;
     right: 0;
   }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
