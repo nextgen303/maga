@@ -669,6 +669,10 @@ header .btn:hover {
   gap: 30px;
 }
 
+.mission__content .mission__heading h5{
+  font-size: 18px;
+}
+
 .mission__content .mission__heading h2 {
   padding-top: 2rem;
   color: var(--secondery-color);
@@ -735,7 +739,7 @@ header .btn:hover {
 }
 
 .clients__heading h6 {
-  font-size: 12px;
+  font-size: 16px;
   opacity: 0.3;
 }
 
@@ -746,7 +750,7 @@ header .btn:hover {
 }
 
 .clients__heading p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 16px;
   opacity: 0.3;
   width: 96%;
@@ -896,7 +900,7 @@ header .btn:hover {
 
 .value__list-box p {
   padding-top: 50px;
-  font-size: var(--fs-6);
+  font-size: 13px;
   line-height: 20px;
   color: var(--white);
   width: 90%;
